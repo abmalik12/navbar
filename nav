@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+     *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: burlywood;
+}
+.h1{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+}
+
+ .navbar{
+    width: 100vw;
+    height: 7vh;
+    padding-top: 9px;
+    background-color: whitesmoke;
+    font-size: larger;
+    display: flex;
+    place-content: center;
+    gap: 35px;
+    
+}
+
+.navbar a{
+     color: black;
+     text-decoration: none;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(235, 252, 0);
+    background: url('images/4.jpg') center/cover no-repeat;
+    height: 300px;
+}
+</style>
+</head>
+<body>
+    <h1 class="h1">The University of Faisalabad</h1>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Services</a>
+    </div>
